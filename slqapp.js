@@ -1,5 +1,9 @@
 const express = require("express");
+    // Declarando estas lineas implementamos un modulo que con su funsión 
+    // permite la creasión de un objeto http.
 const path = require (`path`);
+    // este camino nos lleba al archivo, un módulo dirigido al desarrollador
+    //     de los direccionamientos por ejemplo de los ficheros de la app.
 const fs = require (`fs`);
 const http = require (`http`);
 const slqapp = express();
