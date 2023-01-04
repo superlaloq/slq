@@ -8,8 +8,7 @@ const fs = require (`fs`);
 const http = require (`http`);
 const slqapp = express();
 
-
-//slqapp.use(express.static('assets'));
+slqapp.use(express.static('assets'));
 slqapp.use(express.static('public'));
 slqapp.use('/static', express.static(__dirname + '/public'));
 // mi falta de experiencia no logra descifrar el desenlace final de este codigo 
