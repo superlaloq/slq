@@ -1,7 +1,7 @@
 var miTitulo=document.querySelector('h1');
 miTitulo.innerHTML="Hola amigos";
 var Titulo2=document.querySelector('h2')
-Titulo2.innerHTML="<img src='tarea1/img/img1.jpg'>";
+Titulo2.innerHTML="<img src='img/img1.jpg'>";
 
 function saludar(){
     alert("Bienvenido")
