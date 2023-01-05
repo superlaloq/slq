@@ -5740,6 +5740,7 @@ textarea.form-control-lg {
 }
 
 /* rtl:begin:ignore */
+
 .carousel-item-next:not(.carousel-item-start),
 .active.carousel-item-end {
   transform: translateX(100%);
