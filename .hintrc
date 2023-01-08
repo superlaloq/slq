@@ -41,7 +41,9 @@
           "text-decoration-skip-ink",
           "scroll-behavior",
           "-webkit-overflow-scrolling",
-          "overflow-anchor"
+          "overflow-anchor",
+          "-webkit-text-size-adjust",
+          "text-align: -webkit-match-parent"
         ]
       }
     ],
