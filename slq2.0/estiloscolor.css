@@ -1,0 +1,47 @@
+.geek1 {
+  list-style-type: disc;
+  text-align: center; 
+  color: rgb(214, 174, 152);
+}
+  .main-div{
+    background-image: url(index.html);
+    background-attachment: scroll;
+    padding: 20px;
+}
+.transparent-bg{
+    background: rgba(106, 87, 55, 0.73);
+    padding: 40px;
+    color: rgb(218, 98, 98);
+    text-align: center;
+    font-size: 26px;
+}
+p {
+  border: 5px solid rgb(56, 72, 135);
+  margin: 40px;
+
+  width: 50px;
+  height: 50px;
+  background-color: rgb(58, 118, 118);
+}
+.transformed{
+  /* idéntico a rotateZ(45deg); */
+  transform: rotate(45deg);
+  background-color: rgb(57, 57, 134);
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 80%;
+    width: 100%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
