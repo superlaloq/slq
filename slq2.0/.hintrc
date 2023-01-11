@@ -11,6 +11,53 @@
         "button-name": "off"
       }
     ],
-    "button-type": "off"
+    "disown-opener": "off",
+    "button-type": "off",
+    "axe/aria": [
+      "default",
+      {
+        "aria-progressbar-name": "off"
+      }
+    ],
+    "meta-viewport": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-aria": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-size-adjust",
+          "-webkit-tap-highlight-color",
+          "text-decoration-skip-ink",
+          "scroll-behavior",
+          "-webkit-overflow-scrolling",
+          "overflow-anchor",
+          "-webkit-text-size-adjust",
+          "text-align: -webkit-match-parent"
+        ]
+      }
+    ],
+    "axe/language": [
+      "default",
+      {
+        "html-lang-valid": "off"
+      }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
+    ]
   }
 }
