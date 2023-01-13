@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1"
+  },
+  "name": "slq",
+  "version": "1.0.0",
+  "description": "aplicación web",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superlaloq/slq.git"
+  },
+  "keywords": [
+    "master21"
+  ],
+  "author": "slq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superlaloq/slq/issues"
+  },
+  "homepage": "https://github.com/superlaloq/slq#readme"
+}
