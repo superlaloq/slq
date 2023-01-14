@@ -15,6 +15,14 @@
       </style>
     </head>
     <body>
+      <Script>let colors = ["red", "white", "black"];
+let i = 0;
+
+setInterval(() => {
+  document.body.style.backgroundColor = colors[i];
+  i++;
+  if (i >= colors.length) i = 0;
+}, 2000);</Script>
       <select class="dropdown" style="margin: 0 auto;">
         <option>Item 1</option>
         <option>Item 2</option>
