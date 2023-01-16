@@ -1,3 +1,0 @@
-const seccionesPagina = new("#fullpage", {
-
-});
