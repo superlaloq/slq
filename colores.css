@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    padding: 0 4vw;
+  }
+  .caja{
+    width: 15vw;
+    height: 200px;
+    background: #44ed22;
+  }
+  .caja-1{
+    border-radius: 50px;
+  }
+  .caja-2{
+    border-radius: 50px 0 0 0;
+  }
+  
+.dropdown {
+    background-color: #2b9a1a;
+    border-radius: 0 80px 0 0;
+    width: 100px;
+    height: 100px;
+
+}
+
+.dropdown:hover {
+    background-color: #f2f913;
+    border-radius: 0 80px 0 0;
+    height: 100px;
+    width: 100px;
+
+}
+
+p.class {
+    height: 200px;
+}

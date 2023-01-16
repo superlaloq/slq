@@ -1,0 +1,63 @@
+.parrafo {
+
+
+    font-family: 'Avenir Next LT Pro';
+    
+    
+    font-weight: bold;
+    
+    
+      border: 5px outset #e96b2c;   
+    
+    
+      color: #bdc6cf;
+    
+    
+    background-color: #06192d;
+    
+    
+      text-align: center;
+    
+    
+    }
+
+    .flex-container {
+
+
+        display: flex;
+      
+      
+        height: 200px;
+      
+      
+        background-color: #e93c11;
+      
+      
+      }
+      
+      
+      .flex-container > div {
+      
+      
+        background-color: #EAF0F6;
+      
+      
+        width: 90px;
+      
+      
+        margin: 10px;
+      
+      
+        text-align: center;
+      
+      
+        line-height: 50px;
+      
+      
+        font-size: 60px;
+      
+      
+        flex: 1 1 200px;
+      
+      
+      }
