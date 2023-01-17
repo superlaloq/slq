@@ -5,7 +5,7 @@ setInterval(() => {
   document.body.style.backgroundColor = colors[i];
   i++;
   if (i >= colors.length) i = 0;
-}, 3);
+}, 400);
 
 alert("Bienvenido a SlQ, aquí encontraras Servicios y Productos Informáticos");
       

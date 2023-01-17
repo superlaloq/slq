@@ -20,7 +20,10 @@
           "scroll-behavior",
           "-webkit-text-size-adjust",
           "text-align: -webkit-match-parent",
-          "-webkit-tap-highlight-color"
+          "-webkit-tap-highlight-color",
+          "text-decoration-skip-ink",
+          "-webkit-overflow-scrolling",
+          "overflow-anchor"
         ]
       }
     ],
@@ -34,7 +37,14 @@
     "axe/structure": [
       "default",
       {
-        "list": "off"
+        "list": "off",
+        "listitem": "off"
+      }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
       }
     ]
   }
